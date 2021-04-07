@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8">
     
-        <!-- this scales the content to display nicely on mobiles/tablets -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Empowered Women, Empower Women- home</title>
@@ -11,12 +10,19 @@
         <!-- Bootstrap and FontAwesome cdn links -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <!-- our custom styles -->
         <link rel="stylesheet" href="style.css">
+
+        <style>
+          body  {
+            background-image: url("Images/women\ 2.jpg");
+            background-color: #cccccc;
+          }
+          </style>
     </head>
 
     <!-- nav bar -->
         
+  <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="./index.html">Empowered Women, Empower Women</a>
   
@@ -36,3 +42,24 @@
         </div>
       </nav>
       <!-- end of nav bar -->
+
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          This website is a space for information about current 'gender' issues and how to help, inspirational stories and podcasts helping to explain more about the female body.
+        </p>
+        <p>
+          Please fill in the form with any suggestions you would like to see posted on this website. 
+        </p>
+      </div>
+
+      <div class="mb-3" id="Email">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3" id="Suggestions">
+        <label for="exampleFormControlTextarea1" class="form-label">Suggestions</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+      </div>
+
+      </body>
